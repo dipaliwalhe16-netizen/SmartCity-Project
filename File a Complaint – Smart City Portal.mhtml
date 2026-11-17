@@ -1,0 +1,811 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost/smart-city-portal/complaint.php
+Subject: =?utf-8?Q?File=20a=20Complaint=20=E2=80=93=20Smart=20City=20Portal?=
+Date: Mon, 02 Nov 2026 07:05:23 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--B2mprUUzOUis0o8eJY7GF050HK3UplkOay3th2yRID----"
+
+
+------MultipartBoundary--B2mprUUzOUis0o8eJY7GF050HK3UplkOay3th2yRID----
+Content-Type: text/html
+Content-ID: <frame-03704FC413E17D4BF6263D8BE6A9B46F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/smart-city-portal/complaint.php
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>File a Complaint =E2=80=93 Smart City Portal</title>
+  <meta name=3D"description" content=3D"Smart City Citizen Complaint Portal=
+ =E2=80=93 Register and track civic complaints online.">
+  <link rel=3D"stylesheet" href=3D"http://localhost/smart-city-portal/asset=
+s/css/style.css">
+  <link rel=3D"icon" href=3D"http://localhost/smart-city-portal/assets/imag=
+es/favicon.svg" type=3D"image/svg+xml">
+</head>
+<body>
+
+<nav class=3D"navbar" role=3D"navigation" aria-label=3D"Main navigation">
+  <div class=3D"navbar-inner">
+    <a class=3D"navbar-brand" href=3D"http://localhost/smart-city-portal/in=
+dex.php" aria-label=3D"Smart City Complaint Portal Home">
+      <div class=3D"brand-icon" aria-hidden=3D"true">=F0=9F=8F=99=EF=B8=8F<=
+/div>
+      <span>Smart<strong>City</strong></span>
+    </a>
+
+    <button class=3D"nav-toggle" aria-expanded=3D"false" aria-controls=3D"m=
+ain-nav" aria-label=3D"Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class=3D"navbar-nav" id=3D"main-nav" role=3D"list">
+      <li><a href=3D"http://localhost/smart-city-portal/index.php">Home</a>=
+</li>
+      <li><a href=3D"http://localhost/smart-city-portal/complaint.php">File=
+ Complaint</a></li>
+      <li><a href=3D"http://localhost/smart-city-portal/track.php">Track Co=
+mplaint</a></li>
+              <li><a href=3D"http://localhost/smart-city-portal/login.php">=
+Login</a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/register.php" cla=
+ss=3D"btn-nav">Register</a></li>
+          </ul>
+  </div>
+</nav>
+
+<main class=3D"form-page" id=3D"main-content" style=3D"padding-top:2rem;pad=
+ding-bottom:2rem;">
+  <div class=3D"form-wrapper wide">
+    <div class=3D"form-card">
+      <div class=3D"form-card-header">
+        <div class=3D"form-icon">=F0=9F=93=9D</div>
+        <h2>File a Complaint</h2>
+        <p>Report a civic issue to your city authority</p>
+      </div>
+
+      <div class=3D"form-card-body">
+               =20
+        <form method=3D"POST" action=3D"http://localhost/smart-city-portal/=
+complaint.php" enctype=3D"multipart/form-data" data-validate=3D"" novalidat=
+e=3D"">
+
+          <h3 style=3D"font-size:1rem;color:var(--blue-dark);margin-bottom:=
+1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);">
+            =F0=9F=91=A4 Personal Information
+          </h3>
+
+          <div class=3D"form-row">
+            <div class=3D"form-group">
+              <label for=3D"citizen_name">Citizen Name <span class=3D"requi=
+red">*</span></label>
+              <input type=3D"text" id=3D"citizen_name" name=3D"citizen_name=
+" class=3D"form-control" value=3D"" placeholder=3D"Your full name" maxlengt=
+h=3D"150" required=3D"">
+              <div class=3D"form-error"></div>            </div>
+
+            <div class=3D"form-group">
+              <label for=3D"email">Email Address <span class=3D"required">*=
+</span></label>
+              <input type=3D"email" id=3D"email" name=3D"email" class=3D"fo=
+rm-control" value=3D"" placeholder=3D"you@example.com" required=3D"">
+              <div class=3D"form-error"></div>            </div>
+          </div>
+
+          <div class=3D"form-group" style=3D"max-width:300px;">
+            <label for=3D"mobile">Mobile Number <span class=3D"required">*<=
+/span></label>
+            <input type=3D"tel" id=3D"mobile" name=3D"mobile" class=3D"form=
+-control" value=3D"" placeholder=3D"9XXXXXXXXX" maxlength=3D"10" required=
+=3D"">
+            <div class=3D"form-error"></div>          </div>
+
+          <h3 style=3D"font-size:1rem;color:var(--blue-dark);margin:1.5rem =
+0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border);">
+            =F0=9F=93=8B Complaint Details
+          </h3>
+
+          <div class=3D"form-row">
+            <div class=3D"form-group">
+              <label for=3D"category">Complaint Category <span class=3D"req=
+uired">*</span></label>
+              <select id=3D"category" name=3D"category" class=3D"form-contr=
+ol" required=3D"">
+                <option value=3D"">-- Select Category --</option>
+                                  <option value=3D"Roads &amp; Footpaths">
+                    Roads &amp; Footpaths                  </option>
+                                  <option value=3D"Water Supply">
+                    Water Supply                  </option>
+                                  <option value=3D"Electricity">
+                    Electricity                  </option>
+                                  <option value=3D"Garbage &amp; Sanitation=
+">
+                    Garbage &amp; Sanitation                  </option>
+                                  <option value=3D"Drainage &amp; Sewage">
+                    Drainage &amp; Sewage                  </option>
+                                  <option value=3D"Street Lights">
+                    Street Lights                  </option>
+                                  <option value=3D"Parks &amp; Gardens">
+                    Parks &amp; Gardens                  </option>
+                                  <option value=3D"Public Transport">
+                    Public Transport                  </option>
+                                  <option value=3D"Noise Pollution">
+                    Noise Pollution                  </option>
+                                  <option value=3D"Illegal Construction">
+                    Illegal Construction                  </option>
+                                  <option value=3D"Other">
+                    Other                  </option>
+                              </select>
+              <div class=3D"form-error"></div>            </div>
+
+            <div class=3D"form-group">
+              <label for=3D"complaint_date">Complaint Date <span class=3D"r=
+equired">*</span></label>
+              <input type=3D"date" id=3D"complaint_date" name=3D"complaint_=
+date" class=3D"form-control" value=3D"2026-11-02" max=3D"2026-11-02" requir=
+ed=3D"">
+              <div class=3D"form-error"></div>            </div>
+          </div>
+
+          <div class=3D"form-group">
+            <label for=3D"title">Complaint Title <span class=3D"required">*=
+</span></label>
+            <input type=3D"text" id=3D"title" name=3D"title" class=3D"form-=
+control" value=3D"" placeholder=3D"Brief title describing the issue" maxlen=
+gth=3D"255" required=3D"">
+            <div class=3D"form-error"></div>          </div>
+
+          <div class=3D"form-group">
+            <label for=3D"description">Complaint Description <span class=3D=
+"required">*</span></label>
+            <textarea id=3D"description" name=3D"description" class=3D"form=
+-control " placeholder=3D"Describe the issue in detail (minimum 20 characte=
+rs)" maxlength=3D"2000" required=3D""></textarea>
+            <div class=3D"form-hint"><span class=3D"char-count">0 / 2000</s=
+pan></div>
+            <div class=3D"form-error"></div>          </div>
+
+          <div class=3D"form-group">
+            <label for=3D"city_area">City Area / Address <span class=3D"req=
+uired">*</span></label>
+            <input type=3D"text" id=3D"city_area" name=3D"city_area" class=
+=3D"form-control " value=3D"" placeholder=3D"e.g. Near Central Park, Sector=
+ 12, Noida" maxlength=3D"255" required=3D"">
+            <div class=3D"form-error"></div>          </div>
+
+          <div class=3D"form-group">
+            <label for=3D"photo">Upload Photo <span style=3D"color:var(--te=
+xt-muted);font-weight:400;">(optional, max 5 MB)</span></label>
+            <div class=3D"file-upload-area">
+              <input type=3D"file" id=3D"photo" name=3D"photo" accept=3D"im=
+age/jpeg,image/png,image/gif,image/webp">
+              <div class=3D"upload-icon">=F0=9F=93=B7</div>
+              <p>Click or drag a photo here</p>
+              <p style=3D"font-size:.75rem;margin-top:.25rem;">JPG, PNG, GI=
+F, or WebP =E2=80=93 max 5 MB</p>
+            </div>
+            <div id=3D"photo-preview"></div>
+                      </div>
+
+          <button type=3D"submit" class=3D"btn btn-primary btn-full" style=
+=3D"margin-top:.75rem;">
+            =F0=9F=9A=80 Submit Complaint
+          </button>
+        </form>
+      </div>
+
+      <div class=3D"form-footer">
+        You will receive a unique <strong>Tracking ID</strong> after submis=
+sion.
+                  <br><a href=3D"http://localhost/smart-city-portal/login.p=
+hp">Login</a> to manage complaints in your dashboard.
+              </div>
+    </div>
+  </div>
+</main>
+
+<footer class=3D"footer" role=3D"contentinfo">
+  <div class=3D"footer-inner">
+    <div class=3D"footer-brand">
+      <div class=3D"brand-name">=F0=9F=8F=99=EF=B8=8F SmartCity Portal</div=
+>
+      <p>Empowering citizens to build a better, smarter, and more responsiv=
+e city together.</p>
+    </div>
+
+    <div class=3D"footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href=3D"http://localhost/smart-city-portal/index.php">Home</=
+a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/complaint.php">Fi=
+le a Complaint</a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/track.php">Track =
+Complaint</a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/register.php">Reg=
+ister</a></li>
+      </ul>
+    </div>
+
+    <div class=3D"footer-col">
+      <h4>Complaint Categories</h4>
+      <ul>
+        <li><a href=3D"http://localhost/smart-city-portal/complaint.php">Ro=
+ads &amp; Footpaths</a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/complaint.php">Wa=
+ter Supply</a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/complaint.php">El=
+ectricity</a></li>
+        <li><a href=3D"http://localhost/smart-city-portal/complaint.php">Ga=
+rbage &amp; Sanitation</a></li>
+      </ul>
+    </div>
+
+    <div class=3D"footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href=3D"mailto:support@smartcity.gov">support@smartcity.gov<=
+/a></li>
+        <li><a href=3D"tel:1800001234">Helpline: 1800-00-1234</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class=3D"footer-bottom">
+    <span>=C2=A9 2026 SmartCity Portal. All rights reserved.</span>
+    <span>Built with PHP &amp; MySQL</span>
+  </div>
+</footer>
+
+
+
+
+</body></html>
+------MultipartBoundary--B2mprUUzOUis0o8eJY7GF050HK3UplkOay3th2yRID----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/smart-city-portal/assets/css/style.css
+
+@charset "utf-8";
+
+*, ::before, ::after { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+:root { --green-dark: #1a7a4a; --green-mid: #28a84f; --green-light: #e8f5ee=
+; --blue-dark: #0a3d62; --blue-mid: #1565c0; --blue-light: #e3f0ff; --white=
+: #ffffff; --bg: #f4f7f6; --text-dark: #1e1e2e; --text-muted: #6c757d; --bo=
+rder: #dee2e6; --shadow-sm: 0 2px 8px rgba(0,0,0,.08); --shadow-md: 0 4px 2=
+0px rgba(0,0,0,.12); --radius: 10px; --radius-lg: 16px; --transition: .25s =
+ease; }
+
+html { scroll-behavior: smooth; }
+
+body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; backg=
+round: var(--bg); color: var(--text-dark); line-height: 1.6; min-height: 10=
+0vh; display: flex; flex-direction: column; }
+
+a { color: var(--green-dark); text-decoration: none; transition: color var(=
+--transition); }
+
+a:hover { color: var(--blue-mid); }
+
+img { max-width: 100%; height: auto; display: block; }
+
+ul { list-style: none; }
+
+.navbar { background: linear-gradient(135deg, var(--blue-dark) 0%, var(--gr=
+een-dark) 100%); padding: 0.75rem 0px; position: sticky; top: 0px; z-index:=
+ 1000; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 12px; }
+
+.navbar-inner { max-width: 1200px; margin: 0px auto; padding: 0px 1.5rem; d=
+isplay: flex; align-items: center; justify-content: space-between; gap: 1re=
+m; }
+
+.navbar-brand { display: flex; align-items: center; gap: 0.6rem; color: var=
+(--white); font-size: 1.25rem; font-weight: 700; letter-spacing: 0.3px; }
+
+.navbar-brand .brand-icon { width: 38px; height: 38px; background: rgba(255=
+, 255, 255, 0.15); border-radius: 8px; display: flex; align-items: center; =
+justify-content: center; font-size: 1.4rem; }
+
+.navbar-nav { display: flex; align-items: center; gap: 0.25rem; }
+
+.navbar-nav a { color: rgba(255, 255, 255, 0.88); padding: 0.45rem 0.9rem; =
+border-radius: 6px; font-size: 0.92rem; font-weight: 500; transition: backg=
+round var(--transition), color var(--transition); }
+
+.navbar-nav a:hover, .navbar-nav a.active { background: rgba(255, 255, 255,=
+ 0.18); color: var(--white); }
+
+.navbar-nav .btn-nav { background: var(--green-mid); border-radius: 6px; co=
+lor: var(--white) !important; }
+
+.navbar-nav .btn-nav:hover { background: rgb(34, 150, 62); }
+
+.nav-toggle { display: none; background: none; border-width: medium; border=
+-style: none; border-color: currentcolor; border-image: none; cursor: point=
+er; flex-direction: column; gap: 5px; padding: 4px; }
+
+.nav-toggle span { display: block; width: 24px; height: 2px; background: va=
+r(--white); border-radius: 2px; transition: var(--transition); }
+
+.hero { background: linear-gradient(135deg, var(--blue-dark) 0%, var(--gree=
+n-dark) 60%, var(--green-mid) 100%); color: var(--white); padding: 5rem 1.5=
+rem 4rem; text-align: center; position: relative; overflow: hidden; }
+
+.hero::before { content: ""; position: absolute; inset: 0px; background: ur=
+l("data:image/svg+xml,%3Csvg width=3D'60' height=3D'60' viewBox=3D'0 0 60 6=
+0' xmlns=3D'http://www.w3.org/2000/svg'%3E%3Cg fill=3D'none' fill-rule=3D'e=
+venodd'%3E%3Cg fill=3D'%23ffffff' fill-opacity=3D'0.04'%3E%3Cpath d=3D'M36 =
+34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H=
+4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%=
+3C/svg%3E"); }
+
+.hero-content { position: relative; max-width: 750px; margin: 0px auto; }
+
+.hero-badge { display: inline-block; background: rgba(255, 255, 255, 0.15);=
+ border: 1px solid rgba(255, 255, 255, 0.3); padding: 0.35rem 1rem; border-=
+radius: 20px; font-size: 0.82rem; letter-spacing: 0.5px; text-transform: up=
+percase; margin-bottom: 1.2rem; }
+
+.hero h1 { font-size: clamp(1.8rem, 5vw, 3rem); font-weight: 800; line-heig=
+ht: 1.2; margin-bottom: 1rem; }
+
+.hero p { font-size: 1.1rem; opacity: 0.9; max-width: 580px; margin: 0px au=
+to 2rem; }
+
+.hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wra=
+p: wrap; }
+
+.btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6=
+rem 1.4rem; border-radius: var(--radius); font-size: 0.95rem; font-weight: =
+600; cursor: pointer; border: 2px solid transparent; transition: all var(--=
+transition); text-align: center; white-space: nowrap; }
+
+.btn-primary { background: var(--green-mid); color: var(--white); border-co=
+lor: var(--green-mid); }
+
+.btn-primary:hover { background: rgb(30, 150, 68); border-color: rgb(30, 15=
+0, 68); color: var(--white); }
+
+.btn-secondary { background: transparent; color: var(--white); border-color=
+: rgba(255, 255, 255, 0.6); }
+
+.btn-secondary:hover { background: rgba(255, 255, 255, 0.15); color: var(--=
+white); }
+
+.btn-outline { background: transparent; color: var(--green-dark); border-co=
+lor: var(--green-dark); }
+
+.btn-outline:hover { background: var(--green-dark); color: var(--white); }
+
+.btn-blue { background: var(--blue-mid); color: var(--white); border-color:=
+ var(--blue-mid); }
+
+.btn-blue:hover { background: rgb(13, 71, 161); border-color: rgb(13, 71, 1=
+61); color: var(--white); }
+
+.btn-danger { background: rgb(220, 53, 69); color: var(--white); border-col=
+or: rgb(220, 53, 69); }
+
+.btn-danger:hover { background: rgb(176, 42, 55); }
+
+.btn-sm { padding: 0.35rem 0.85rem; font-size: 0.83rem; }
+
+.btn-full { width: 100%; justify-content: center; }
+
+.card { background: var(--white); border-radius: var(--radius-lg); box-shad=
+ow: var(--shadow-sm); border: 1px solid var(--border); overflow: hidden; }
+
+.card-header { padding: 1.2rem 1.5rem; border-bottom: 1px solid var(--borde=
+r); background: rgb(250, 250, 250); display: flex; align-items: center; jus=
+tify-content: space-between; gap: 0.75rem; }
+
+.card-header h2, .card-header h3 { font-size: 1.1rem; color: var(--blue-dar=
+k); display: flex; align-items: center; gap: 0.5rem; }
+
+.card-body { padding: 1.5rem; }
+
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax=
+(180px, 1fr)); gap: 1.2rem; margin-bottom: 2rem; }
+
+.stat-card { background: var(--white); border-radius: var(--radius-lg); pad=
+ding: 1.4rem 1.2rem; box-shadow: var(--shadow-sm); border-left: 4px solid v=
+ar(--green-mid); display: flex; align-items: center; gap: 1rem; transition:=
+ transform var(--transition), box-shadow var(--transition); }
+
+.stat-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md=
+); }
+
+.stat-card.blue { border-left-color: var(--blue-mid); }
+
+.stat-card.orange { border-left-color: rgb(245, 158, 11); }
+
+.stat-card.green { border-left-color: var(--green-mid); }
+
+.stat-card.red { border-left-color: rgb(239, 68, 68); }
+
+.stat-icon { width: 52px; height: 52px; border-radius: 12px; display: flex;=
+ align-items: center; justify-content: center; font-size: 1.5rem; flex-shri=
+nk: 0; }
+
+.stat-card.blue .stat-icon { background: var(--blue-light); }
+
+.stat-card.orange .stat-icon { background: rgb(254, 243, 199); }
+
+.stat-card.green .stat-icon { background: var(--green-light); }
+
+.stat-card.red .stat-icon { background: rgb(254, 226, 226); }
+
+.stat-info .stat-value { font-size: 1.8rem; font-weight: 800; line-height: =
+1; color: var(--text-dark); }
+
+.stat-info .stat-label { font-size: 0.82rem; color: var(--text-muted); marg=
+in-top: 0.2rem; }
+
+.section { padding: 3.5rem 1.5rem; }
+
+.container { max-width: 1200px; margin: 0px auto; }
+
+.section-title { text-align: center; margin-bottom: 2.5rem; }
+
+.section-title h2 { font-size: clamp(1.5rem, 3vw, 2rem); color: var(--blue-=
+dark); font-weight: 800; }
+
+.section-title p { color: var(--text-muted); margin-top: 0.5rem; font-size:=
+ 0.97rem; }
+
+.section-divider { width: 60px; height: 4px; background: linear-gradient(90=
+deg, var(--green-mid), var(--blue-mid)); border-radius: 2px; margin: 0.75re=
+m auto 0px; }
+
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, min=
+max(240px, 1fr)); gap: 1.5rem; }
+
+.feature-card { background: var(--white); border-radius: var(--radius-lg); =
+padding: 2rem 1.5rem; text-align: center; box-shadow: var(--shadow-sm); bor=
+der: 1px solid var(--border); transition: transform var(--transition), box-=
+shadow var(--transition); }
+
+.feature-card:hover { transform: translateY(-4px); box-shadow: var(--shadow=
+-md); }
+
+.feature-icon { width: 64px; height: 64px; border-radius: 16px; background:=
+ var(--green-light); display: flex; align-items: center; justify-content: c=
+enter; font-size: 1.8rem; margin: 0px auto 1rem; }
+
+.feature-card h3 { font-size: 1.05rem; color: var(--blue-dark); margin-bott=
+om: 0.4rem; }
+
+.feature-card p { font-size: 0.88rem; color: var(--text-muted); }
+
+.form-page { min-height: calc(-64px + 100vh); display: flex; align-items: f=
+lex-start; justify-content: center; padding: 2.5rem 1rem; }
+
+.form-wrapper { width: 100%; max-width: 540px; }
+
+.form-wrapper.wide { max-width: 780px; }
+
+.form-card { background: var(--white); border-radius: var(--radius-lg); box=
+-shadow: var(--shadow-md); overflow: hidden; }
+
+.form-card-header { background: linear-gradient(135deg, var(--blue-dark), v=
+ar(--green-dark)); color: var(--white); padding: 2rem 2rem 1.5rem; text-ali=
+gn: center; }
+
+.form-card-header .form-icon { width: 64px; height: 64px; border-radius: 16=
+px; background: rgba(255, 255, 255, 0.15); display: flex; align-items: cent=
+er; justify-content: center; font-size: 2rem; margin: 0px auto 0.75rem; }
+
+.form-card-header h2 { font-size: 1.5rem; font-weight: 700; }
+
+.form-card-header p { opacity: 0.85; font-size: 0.9rem; margin-top: 0.3rem;=
+ }
+
+.form-card-body { padding: 2rem; }
+
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+.form-group { margin-bottom: 1.2rem; }
+
+.form-group label { display: block; font-size: 0.88rem; font-weight: 600; c=
+olor: var(--text-dark); margin-bottom: 0.4rem; }
+
+.form-group label .required { color: rgb(239, 68, 68); margin-left: 2px; }
+
+.form-control { width: 100%; padding: 0.65rem 1rem; border: 1.5px solid var=
+(--border); border-radius: 8px; font-size: 0.95rem; color: var(--text-dark)=
+; background: var(--white); transition: border-color var(--transition), box=
+-shadow var(--transition); outline: none; }
+
+.form-control:focus { border-color: var(--green-mid); box-shadow: rgba(40, =
+168, 79, 0.15) 0px 0px 0px 3px; }
+
+.form-control.is-invalid { border-color: rgb(239, 68, 68); }
+
+.form-control.is-invalid:focus { box-shadow: rgba(239, 68, 68, 0.15) 0px 0p=
+x 0px 3px; }
+
+textarea.form-control { resize: vertical; min-height: 110px; }
+
+select.form-control { cursor: pointer; }
+
+.form-hint { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.25=
+rem; }
+
+.form-error { font-size: 0.8rem; color: rgb(239, 68, 68); margin-top: 0.25r=
+em; }
+
+.form-footer { text-align: center; padding: 1rem 2rem 1.5rem; border-top: 1=
+px solid var(--border); font-size: 0.9rem; color: var(--text-muted); }
+
+.alert { padding: 0.85rem 1.2rem; border-radius: 8px; margin-bottom: 1.2rem=
+; font-size: 0.92rem; display: flex; align-items: flex-start; gap: 0.6rem; =
+border: 1px solid transparent; }
+
+.alert-success { background: rgb(209, 250, 229); border-color: rgb(110, 231=
+, 183); color: rgb(6, 95, 70); }
+
+.alert-danger { background: rgb(254, 226, 226); border-color: rgb(252, 165,=
+ 165); color: rgb(153, 27, 27); }
+
+.alert-info { background: rgb(219, 234, 254); border-color: rgb(147, 197, 2=
+53); color: rgb(30, 64, 175); }
+
+.alert-warning { background: rgb(254, 243, 199); border-color: rgb(252, 211=
+, 77); color: rgb(146, 64, 14); }
+
+.badge { display: inline-block; padding: 0.25rem 0.65rem; border-radius: 20=
+px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.3px; text-trans=
+form: uppercase; }
+
+.badge-warning { background: rgb(254, 243, 199); color: rgb(146, 64, 14); }
+
+.badge-info { background: rgb(219, 234, 254); color: rgb(30, 64, 175); }
+
+.badge-success { background: rgb(209, 250, 229); color: rgb(6, 95, 70); }
+
+.badge-danger { background: rgb(254, 226, 226); color: rgb(153, 27, 27); }
+
+.badge-secondary { background: rgb(243, 244, 246); color: rgb(55, 65, 81); =
+}
+
+.table-wrap { overflow-x: auto; }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+
+thead th { background: var(--blue-dark); color: var(--white); padding: 0.85=
+rem 1rem; text-align: left; font-weight: 600; font-size: 0.83rem; text-tran=
+sform: uppercase; letter-spacing: 0.4px; white-space: nowrap; }
+
+tbody tr { border-bottom: 1px solid var(--border); transition: background v=
+ar(--transition); }
+
+tbody tr:hover { background: rgb(248, 255, 254); }
+
+tbody td { padding: 0.85rem 1rem; vertical-align: middle; }
+
+.dashboard-layout { display: flex; min-height: calc(-64px + 100vh); }
+
+.sidebar { width: 250px; background: linear-gradient(180deg, var(--blue-dar=
+k) 0%, #0d2f4d 100%); flex-shrink: 0; padding: 1.5rem 0px; position: sticky=
+; top: 64px; height: calc(-64px + 100vh); overflow-y: auto; }
+
+.sidebar-logo { padding: 0px 1.5rem 1.5rem; border-bottom: 1px solid rgba(2=
+55, 255, 255, 0.1); margin-bottom: 1rem; display: flex; align-items: center=
+; gap: 0.7rem; color: var(--white); font-size: 1rem; font-weight: 700; }
+
+.sidebar-logo span { font-size: 1.4rem; }
+
+.sidebar-menu a { display: flex; align-items: center; gap: 0.75rem; padding=
+: 0.75rem 1.5rem; color: rgba(255, 255, 255, 0.75); font-size: 0.92rem; tra=
+nsition: all var(--transition); border-left: 3px solid transparent; }
+
+.sidebar-menu a:hover, .sidebar-menu a.active { background: rgba(255, 255, =
+255, 0.1); color: var(--white); border-left-color: var(--green-mid); }
+
+.sidebar-menu a .menu-icon { font-size: 1.1rem; width: 20px; text-align: ce=
+nter; }
+
+.sidebar-section { font-size: 0.72rem; text-transform: uppercase; letter-sp=
+acing: 0.8px; color: rgba(255, 255, 255, 0.4); padding: 1rem 1.5rem 0.3rem;=
+ }
+
+.main-content { flex: 1 1 0%; padding: 2rem; overflow-x: hidden; }
+
+.page-header { display: flex; align-items: center; justify-content: space-b=
+etween; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+
+.page-header h1 { font-size: 1.5rem; color: var(--blue-dark); font-weight: =
+700; display: flex; align-items: center; gap: 0.5rem; }
+
+.track-result { background: var(--white); border-radius: var(--radius-lg); =
+box-shadow: var(--shadow-md); overflow: hidden; margin-top: 1.5rem; }
+
+.track-result-header { background: linear-gradient(135deg, var(--blue-dark)=
+, var(--green-dark)); color: var(--white); padding: 1.5rem; display: flex; =
+align-items: center; justify-content: space-between; flex-wrap: wrap; gap: =
+0.75rem; }
+
+.track-result-header h3 { font-size: 1.1rem; }
+
+.track-timeline { padding: 1.5rem; display: flex; flex-direction: column; g=
+ap: 0.5rem; }
+
+.timeline-step { display: flex; align-items: center; gap: 1rem; padding: 0.=
+8rem 1rem; border-radius: 8px; background: rgb(248, 250, 252); border: 1px =
+solid var(--border); }
+
+.timeline-step.done { background: var(--green-light); border-color: rgb(167=
+, 243, 208); }
+
+.timeline-step.active { background: var(--blue-light); border-color: rgb(14=
+7, 197, 253); }
+
+.timeline-dot { width: 28px; height: 28px; border-radius: 50%; background: =
+var(--border); display: flex; align-items: center; justify-content: center;=
+ font-size: 0.85rem; flex-shrink: 0; }
+
+.timeline-step.done .timeline-dot { background: var(--green-mid); color: rg=
+b(255, 255, 255); }
+
+.timeline-step.active .timeline-dot { background: var(--blue-mid); color: r=
+gb(255, 255, 255); }
+
+.detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+.detail-item label { display: block; font-size: 0.78rem; text-transform: up=
+percase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 0.=
+2rem; }
+
+.detail-item p { font-size: 0.95rem; color: var(--text-dark); font-weight: =
+500; }
+
+.footer { background: var(--blue-dark); color: rgba(255, 255, 255, 0.75); p=
+adding: 2.5rem 1.5rem 1.5rem; margin-top: auto; }
+
+.footer-inner { max-width: 1200px; margin: 0px auto; display: grid; grid-te=
+mplate-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+
+.footer-brand .brand-name { color: var(--white); font-size: 1.1rem; font-we=
+ight: 700; margin-bottom: 0.5rem; }
+
+.footer-brand p { font-size: 0.85rem; line-height: 1.6; }
+
+.footer-col h4 { color: var(--white); font-size: 0.92rem; font-weight: 700;=
+ margin-bottom: 0.75rem; }
+
+.footer-col li { margin-bottom: 0.4rem; }
+
+.footer-col a { color: rgba(255, 255, 255, 0.65); font-size: 0.85rem; }
+
+.footer-col a:hover { color: var(--white); }
+
+.footer-bottom { max-width: 1200px; margin: 1.5rem auto 0px; border-top: 1p=
+x solid rgba(255, 255, 255, 0.1); padding-top: 1rem; display: flex; align-i=
+tems: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;=
+ font-size: 0.82rem; }
+
+.text-center { text-align: center; }
+
+.text-muted { color: var(--text-muted); }
+
+.mt-1 { margin-top: 0.5rem; }
+
+.mt-2 { margin-top: 1rem; }
+
+.mt-3 { margin-top: 1.5rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+
+.mb-2 { margin-bottom: 1rem; }
+
+.d-flex { display: flex; }
+
+.align-center { align-items: center; }
+
+.gap-1 { gap: 0.5rem; }
+
+.gap-2 { gap: 1rem; }
+
+.fw-bold { font-weight: 700; }
+
+.file-upload-area { border: 2px dashed var(--border); border-radius: 8px; p=
+adding: 1.5rem; text-align: center; cursor: pointer; transition: border-col=
+or var(--transition), background var(--transition); position: relative; }
+
+.file-upload-area:hover { border-color: var(--green-mid); background: var(-=
+-green-light); }
+
+.file-upload-area input[type=3D"file"] { position: absolute; inset: 0px; op=
+acity: 0; cursor: pointer; width: 100%; height: 100%; }
+
+.file-upload-area .upload-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+
+.file-upload-area p { font-size: 0.88rem; color: var(--text-muted); }
+
+.filter-bar { display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: fl=
+ex-end; margin-bottom: 1.2rem; }
+
+.filter-bar .form-control { max-width: 220px; }
+
+.modal-overlay { display: none; position: fixed; inset: 0px; background: rg=
+ba(0, 0, 0, 0.5); z-index: 2000; align-items: center; justify-content: cent=
+er; padding: 1rem; }
+
+.modal-overlay.open { display: flex; }
+
+.modal-box { background: var(--white); border-radius: var(--radius-lg); max=
+-width: 580px; width: 100%; max-height: 90vh; overflow-y: auto; box-shadow:=
+ var(--shadow-md); }
+
+.modal-header { padding: 1.2rem 1.5rem; border-bottom: 1px solid var(--bord=
+er); display: flex; align-items: center; justify-content: space-between; }
+
+.modal-header h3 { font-size: 1.1rem; color: var(--blue-dark); }
+
+.modal-close { background: none; border-width: medium; border-style: none; =
+border-color: currentcolor; border-image: none; font-size: 1.4rem; cursor: =
+pointer; color: var(--text-muted); line-height: 1; }
+
+.modal-body { padding: 1.5rem; }
+
+.modal-footer { padding: 1rem 1.5rem; border-top: 1px solid var(--border); =
+display: flex; gap: 0.75rem; justify-content: flex-end; }
+
+.pagination { display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: cen=
+ter; justify-content: center; margin-top: 1.5rem; }
+
+.pagination a, .pagination span { padding: 0.4rem 0.8rem; border-radius: 6p=
+x; font-size: 0.88rem; border: 1px solid var(--border); background: var(--w=
+hite); color: var(--text-dark); transition: all var(--transition); }
+
+.pagination a:hover { background: var(--green-light); border-color: var(--g=
+reen-mid); color: var(--green-dark); }
+
+.pagination .current { background: var(--green-mid); border-color: var(--gr=
+een-mid); color: var(--white); font-weight: 700; }
+
+.pagination .disabled { opacity: 0.4; pointer-events: none; }
+
+.admin-layout { display: flex; min-height: calc(-60px + 100vh); }
+
+.admin-sidebar { width: 260px; background: linear-gradient(rgb(10, 37, 64) =
+0%, rgb(13, 59, 110) 100%); flex-shrink: 0; padding: 0px; position: sticky;=
+ top: 60px; height: calc(-60px + 100vh); overflow-y: auto; }
+
+.admin-sidebar .sidebar-brand { background: rgba(255, 255, 255, 0.07); padd=
+ing: 1.2rem 1.5rem; display: flex; align-items: center; gap: 0.6rem; color:=
+ var(--white); font-weight: 700; font-size: 1rem; }
+
+.admin-sidebar .sidebar-brand span { font-size: 1.3rem; }
+
+@media (max-width: 768px) {
+  .navbar-nav { display: none; flex-direction: column; position: absolute; =
+top: 64px; left: 0px; right: 0px; background: var(--blue-dark); padding: 1r=
+em; gap: 0px; }
+  .navbar-nav.open { display: flex; }
+  .nav-toggle { display: flex; }
+  .navbar-inner { position: relative; }
+  .hero { padding: 3rem 1rem 2.5rem; }
+  .form-row { grid-template-columns: 1fr; }
+  .dashboard-layout { flex-direction: column; }
+  .sidebar { width: 100%; height: auto; position: static; }
+  .admin-layout { flex-direction: column; }
+  .admin-sidebar { width: 100%; height: auto; position: static; }
+  .detail-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .filter-bar .form-control { max-width: 100%; }
+  .page-header { flex-direction: column; align-items: flex-start; }
+  .footer-inner { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr; }
+  .form-card-body { padding: 1.25rem; }
+  .main-content { padding: 1rem; }
+}
+------MultipartBoundary--B2mprUUzOUis0o8eJY7GF050HK3UplkOay3th2yRID------

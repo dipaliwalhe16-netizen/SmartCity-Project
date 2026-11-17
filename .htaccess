@@ -1,0 +1,11 @@
+Options -Indexes
+
+# Block direct access to includes
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^includes/ - [F,L]
+</IfModule>
+
+# Custom error pages (optional)
+ErrorDocument 403 /smart-city-portal/index.php
+ErrorDocument 404 /smart-city-portal/index.php
